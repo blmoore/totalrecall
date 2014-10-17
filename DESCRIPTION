@@ -1,0 +1,8 @@
+Package: totalrecall
+Title: Reproducible Rscripts via sessionInfo
+Version: 0.1
+Authors@R: "Ben Moore <root@blm.io> [aut, cre]"
+Description: Attempts to grab previous package versions to match those output by a past sessionInfo() call (i.e. a hacky way of reverse-applying reproducibility if sessionInfo is available).
+Depends: R (>= 3.1.1)
+License: MIT
+LazyData: true
