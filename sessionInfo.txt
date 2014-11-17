@@ -11,7 +11,6 @@ other attached packages:
 [1] gridExtra_0.9.1 reshape2_1.4    dplyr_0.3.0.2   ggplot2_1.0.0  
 
 loaded via a namespace (and not attached):
- [1] assertthat_0.1   codetools_0.2-9  colorspace_1.2-4 DBI_0.3.1        devtools_1.6.1  
- [6] digest_0.6.4     gtable_0.1.2     magrittr_1.0.1   MASS_7.3-35      munsell_0.4.2   
-[11] parallel_3.1.1   plyr_1.8.1       proto_0.3-10     Rcpp_0.11.3      scales_0.2.4    
-[16] stringr_0.6.2    tools_3.1.1     
+ [1] assertthat_0.1   codetools_0.2-9  colorspace_1.2-4 DBI_0.3.1        digest_0.6.4     gtable_0.1.2    
+ [7] magrittr_1.0.1   MASS_7.3-35      munsell_0.4.2    parallel_3.1.1   plyr_1.8.1       proto_0.3-10    
+[13] Rcpp_0.11.3      scales_0.2.4     stringr_0.6.2    tools_3.1.1     

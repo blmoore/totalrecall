@@ -35,13 +35,21 @@ parse_sessionInfo <- function(filename=""){
     }
   }
 
-  # cran mirror:
-  cran <- getOption("repos")
-
   # return
   list("loaded"=l_pkgs)
 }
 
+recall_pkgs <- function(pkglist){
+  # cran mirror:
+  cran <- getOption("repos")
+  # default if unset
+  cran <- if(cran == "@CRAN@") "http://cran.r-project.org/" else cran
+
+  # URL format::
+  # <CRAN base>/src/contrib/Archive/<pkgName>/<pkgName>_<Maj>_<Point>.tar.gz
+  # http://cran.r-project.org/src/contrib/Archive/ALDqr/ALDqr_0.1.tar.gz
+}
+
 dump_sessionInfo()
 parse_sessionInfo()
-
+install_sessionInfo()
